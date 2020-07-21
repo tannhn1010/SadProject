@@ -5,6 +5,16 @@ public class CustomerEntity {
 	private String name;
 	private String address;
 	private String team;
+	
+	public CustomerEntity() {
+		
+	}
+	public CustomerEntity( int id, String name, String address, String team) {
+		this.id = id;
+		this.name = name;
+		this.address = address;
+		this.team = team;
+	}
 	public int getId() {
 		return id;
 	}
