@@ -43,6 +43,7 @@ public class Main {
 		cusDao.delete(1);
 		
 		System.out.println("11111");
+		//ghubvhjubhjbjh
 	}
 
 }
